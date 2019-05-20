@@ -1,0 +1,15 @@
+{
+  "entrypoints": {
+    "homepage": {
+      "js": [
+        "/build/manifest.js",
+        "/build/app.js",
+        "/build/homepage.js"
+      ],
+      "css": [
+        "/build/app.css",
+        "/build/homepage.css"
+      ]
+    }
+  }
+}

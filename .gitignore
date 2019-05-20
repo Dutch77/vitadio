@@ -1,0 +1,49 @@
+# Backup entities generated with doctrine:generate:entities command
+*~
+
+/.develop
+.idea
+*.map
+*.orig
+/nbproject/*
+
+*.bat
+
+###> symfony/framework-bundle ###
+/.env
+/var/cache/*
+/var/log/*
+/var/sessions/*
+/var/search/*
+/var/cert/*
+!/var/cache/.gitkeep
+!/var/log/.gitkeep
+!/var/sessions/.gitkeep
+!/var/cert/gp_webpay/.gitkeep
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
+
+###> symfony/webpack-encore-pack ###
+/node_modules/
+/www-root/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-pack ###
+
+###> vendor assets ###
+/www-root/bundles/*
+/www-root/uploads/media/*
+!/www-root/uploads/media/.gitkeep
+
+# EXCEPT #
+!/www-root/app/
+###< vendor assets ###
